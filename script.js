@@ -8,7 +8,7 @@ function iniciarConversa() {
       var whatsappLink = 'https://api.whatsapp.com/send?phone=' + ddd + phone;
       
       // Redirecionar o usuário para o WhatsApp
-      window.location.href = whatsappLink;
+      window.open(whatsappLink, '_blank');
     } else {
       alert('Por favor, preencha todos os campos!');
     }
