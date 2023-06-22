@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
   }
   
+
   section.menu{
     display: flex;
     flex-wrap: wrap;
-    padding: 300px;
-    min-height: 300px;
+    padding: 40px;
+    min-height: 700px;
     background-image: url(fundo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,8 +16,8 @@ body {
 
 
   .container {
-    width: 800px;
-    margin-left: 450px;
+    width: 600px;
+    margin-left: 700px;
   }
 
   .container h2{
@@ -91,6 +92,11 @@ body {
     font-weight: bold;
   }
 
+  .anuncio{
+    margin-top: -35px;
+    padding: 20px;
+    margin-left: -26px
+  }
 
   @media screen and (max-width: 768px){
 
